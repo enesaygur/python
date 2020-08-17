@@ -34,6 +34,7 @@ urunler = [
 {'name':'samsung s9','price':'6000'},
 {'name':'samsung s10','price':'7000'}
           ]
+###################################### toplam fiyatı bul
 # toplam=0
 # for urun in urunler:
 #     fiyat=int(urun['price'])
@@ -41,7 +42,7 @@ urunler = [
 #     toplam+=fiyat
 # print("toplam ürün fiyatı =",toplam)
 
-# fiyatı 5000 ve altı olan ürünler hangileridir?
+# fiyatı 5000 ve altı olan ürünler hangileridir? ######################3
 
 for urun in urunler:
     if int(urun['price'])<5000:
